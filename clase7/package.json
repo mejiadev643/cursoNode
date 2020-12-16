@@ -1,0 +1,27 @@
+{
+  "name": "curso-nodejs",
+  "version": "1.0.0",
+  "description": "curso nodejs",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cr15t14n/cursoNode.git"
+  },
+  "author": "cristian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cr15t14n/cursoNode/issues"
+  },
+  "homepage": "https://github.com/cr15t14n/cursoNode#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}
