@@ -1,30 +1,33 @@
 {
   "name": "curso-nodejs",
   "version": "1.0.0",
-  "description": "curso nodejs",
+  "description": "Curso NodejS",
   "main": "app.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "nodemon app.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cr15t14n/cursoNode.git"
+    "url": "git+https://github.com/marl-roy/curso-nodejs.git"
   },
-  "author": "cristian",
+  "author": "Marlon Monroy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cr15t14n/cursoNode/issues"
+    "url": "https://github.com/marl-roy/curso-nodejs/issues"
   },
-  "homepage": "https://github.com/cr15t14n/cursoNode#readme",
+  "homepage": "https://github.com/marl-roy/curso-nodejs#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
     "dotenv": "^8.2.0",
     "ejs": "^3.1.5",
     "express": "^4.17.1",
+    "express-session": "^1.17.1",
     "mongoose": "^5.11.8",
+    "nodemailer": "^6.4.17",
     "nodemon": "^2.0.6"
   }
 }
